@@ -7,8 +7,7 @@ from flask import Flask, request, jsonify, render_template, send_from_directory,
 from flask_cors import CORS
 import spacy
 from bs4 import BeautifulSoup
-from http.server import HTTPServer, BaseHTTPRequestHandler
-import logging, ngrok
+
 
 # Configuración inicial
 openai.api_key = 'sk-proj-132yLlKjv1koyOInxm2sT3BlbkFJRfIVinFE0b4JyGIxfFRt'  # Asegúrate de configurar tu variable de entorno
