@@ -1,0 +1,6 @@
+openai
+requests
+flask
+flask-cors
+spacy
+beautifulsoup4
