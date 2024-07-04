@@ -4,3 +4,4 @@ flask
 flask-cors
 spacy
 beautifulsoup4
+ gunicorn
