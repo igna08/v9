@@ -5,4 +5,3 @@ flask-cors
 spacy
 beautifulsoup4
  gunicorn
-es_core_news_md
