@@ -20,9 +20,9 @@ app.config['DEBUG'] = True
 nlp = spacy.load("es_core_news_md")
 
 # Configuración de tokens de acceso
-access_token = 'EAANXw0zqBXEBO8DnPK0h4HjZBX2ZC0VbKB4319kBCxHOZAbNwKBMCSUvB1cYM1wLv5NNYPRFzaygugTmJJFg1WhFQZBm1ZCNaXKhGun5DT2LV1IgxrdL3dNllP7HGYUmR0QhjKAhitbDqHWcCQU4DYj1KtdxKKkRBOVJ9DxB13SZANnAJuEj2XCEeACBl9ZCrFkB9ziXq3ZAO15UVEY8QialrjQIhgZDZD'
+access_token = 'EAANXw0zqBXEBOZBXI62LT4LGoKpyJmbvk4v3ZClf3qa1UpWjkv9lytaoay3Fn3GOIRIUbxgvCNocZBIESWstLYRSzwxvx36RvRSdbwAmuODpNXwRDXGlNWDIIkkdsqHjiUEjq1qIJTsVG0JAgxalEhq1AgobOJMEQHdMs0bshB2zNPLxXwat8KYeZBHclq3HbZBaTXzmK0KxtMDgeKbKFq2cyYrAZD'
 verify_token = '12345'
-phone_number_id = 'TU_PHONE_NUMBER_ID'
+phone_number_id = '316436791556875'
 WEBHOOK_VERIFY_TOKEN= 12345
 @app.route("/")
 def home():
@@ -326,5 +326,5 @@ def reset():
     session.pop('messages', None)
     return jsonify({'status': 'session reset'})
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
